@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 # データ読み込み
-df = pd.read_csv('../build/lv_rk.csv', header=None)
+df = pd.read_csv('../build/simout.csv', header=None)
 print(df)
 
 # グラフプロット(系列名無し)
